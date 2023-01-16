@@ -1,3 +1,8 @@
+import chef from "../images/chef.jpg"
+import headchef from "../images/headChef.jpg"
+import barman from "../images/barmna.jpg"
+
+
 export const menu = [
     {
         id: 1,
@@ -124,5 +129,24 @@ export const menu = [
 
 
 
-
+export const staff = [
+    {
+        id: 1,
+        name: "Matilde Paulo",
+        role: "Head Chef",
+        image: headchef
+    },
+    {
+        id: 2,
+        name: "Thomas Yale",
+        role: "Barman",
+        image: barman
+    },
+    {
+        id: 3,
+        name: "Jung Ye",
+        role: "Chef",
+        image: chef
+    }
+]
 

@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import Title from './Title';
 import {menu} from "../data/menu";
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from "react-icons/ai"
 
@@ -50,14 +51,13 @@ const OurMenu = () => {
 
   return (
     <section className='max-w-[1640px] mx-auto p-4 py-12'>
-        <h2 className='text-center font-bold text-4xl md:text-5xl lg:text-6xl pb-10 text-orange-500'>Our Menu</h2>
+        <Title title="Our Menu" />
         {/*filter */}
         <div className='flex items-center justify-center gap-6'>
             {/*filter type */}
             <div className='border-2 border-orange-500 p-2 rounded-sm flex items-center gap-2'>
                <label htmlFor="category" className='font-medium'>Filter By Category</label>
-               <select name="category" id='category' onChange={categorySelected} className='outline-none border-none focus:outline-orange-500'>
-                <option value="" className=''></option>
+               <select name="category" id='category' onChange={categorySelected} className='outline-none border-none bg-transparent focus:outline-orange-500'>
                 <option value="all">All</option>
                 <option value="steak">steak</option>
                 <option value="burger">burgers</option>
@@ -69,8 +69,7 @@ const OurMenu = () => {
             <div className='border-2 border-orange-500 p-2 rounded-sm flex items-center gap-2'>
             {/*filter price */}
             <label htmlFor="price" className='font-medium'>Filter By Price</label>
-            <select name="price" id='price' onChange={priceSelected} className='outline-none border-none focus:outline-orange-500'>
-                <option value=""></option>
+            <select name="price" id='price' onChange={priceSelected} className='outline-none border-none bg-transparent focus:outline-orange-500'>
                 <option value="all">All</option>
                 <option value="€">€</option>
                 <option value="€€">€€</option>
