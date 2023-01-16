@@ -1,20 +1,24 @@
-import React from 'react'
+import hero from "../images/hero.jpg"
 
 const Hero = () => {
   return (
     <header className='max-w-[1640px] mx-auto p-4'>
-        <div className='bg-hero text-white bg-center bg-cover h-[80vh] flex items-center'>
+        <div className='max-h-[500px] relative'>
             {/*Overlay */}
-            <div className='px-6'>
-              <h1 className='py-5 flex flex-col gap-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>
-                <span>The <span className='font-bold text-orange-500'>Best</span></span>
-                <span className='font-bold text-orange-500'>Steakhouse <span className='text-white'>Near You</span></span>
+            <div className="absolute w-full h-full max-h-[500px] bg-black/40 flex flex-col justify-center">
+            <div className="px-6">
+            <h1 className='py-5 font-bold flex flex-col gap-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>
+                <span className="text-white">The <span className=' text-orange-500'>Best</span></span>
+                <span className=' text-orange-500'>Steakhouse <span className='text-white'>Near You</span></span>
               </h1>
-              <button className='border-2 border-orange-500 text-orange-500 py-2 px-10 text-sm sm:text-base shadow-orange-600 shadow'>Book now</button>
+              <button className='w-max border-2 border-orange-500 text-orange-500 py-2 px-10 text-sm sm:text-base shadow-orange-600 shadow hover:scale-110 duration-300'>Book now</button>
             </div>
+            </div>
+            <img src={hero} alt="meat" className="w-full max-h-[500px] object-cover" />
         </div>
     </header>
   )
 }
 
 export default Hero;
+
