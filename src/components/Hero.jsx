@@ -10,7 +10,11 @@ const Hero = () => {
                 <span className="text-white">The <span className=' text-orange-500'>Best</span></span>
                 <span className=' text-orange-500'>Steakhouse <span className='text-white'>Near You</span></span>
               </h1>
-              <button className='w-max border-2 border-orange-500 text-orange-500 py-2 px-10 text-sm sm:text-base shadow-orange-600 shadow hover:scale-110 duration-300'>Book now</button>
+              <button className='w-max border-2 border-orange-500 text-orange-500 py-2 px-10 text-sm sm:text-base shadow-orange-600 shadow hover:scale-110 duration-300'>
+                <a href="#reserve">
+                Book now
+                </a>
+                </button>
             </div>
             </div>
             <img src={hero} alt="meat" className="w-full h-[60vh] object-cover" />

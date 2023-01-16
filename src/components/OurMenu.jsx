@@ -79,7 +79,7 @@ const OurMenu = () => {
         </div>
         <section className='grid grid-cols-1 py-10 gap-6 md:grid-cols-2 lg:grid-cols-4'>
         {paginatedData.map(item => (
-            <div key={item.id} className="hover:scale-110 cursor-pointer duration-300">
+            <div key={item.id} className="lg:hover:scale-110 cursor-pointer transition">
                 <img src={item.image} alt={item.name} className="w-full h-[150px] object-cover rounded-t-md shadow" />
                 <div className='flex items-center justify-between py-4 px-2 bg-orange-500 rounded-b-md'>
                     <p className=''>{item.name}</p>

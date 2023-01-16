@@ -4,20 +4,24 @@ import HeadlineCards from "./components/HeadlineCards";
 import OurMenu from "./components/OurMenu";
 import Footer from "./components/Footer";
 import Staff from "./components/Staff";
-import Reserve from "./components/Reserve";
+import ReserveForm from "./components/ReserveForm";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"
+
 
 function App() {
   
 
   return (
     <div className="font-poppins">
+      <ToastContainer limit={1} />
       <NavBar />
       <Hero />
       <main>
       <HeadlineCards />
       <OurMenu />
       <Staff />
-      <Reserve />
+      <ReserveForm />
       </main>
       <Footer />
     </div>
