@@ -1,7 +1,7 @@
 
 const Logo = () => {
   return (
-    <span className='uppercase text-2xl px-2 sm:text-3xl lg:text-4xl'>
+    <span className='uppercase text-2xl px-2 sm:text-3xl'>
          Steak'
         <span className='font-bold'>
         nDining

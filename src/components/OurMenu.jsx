@@ -55,9 +55,9 @@ const OurMenu = () => {
         {/*filter */}
         <div className='flex items-center justify-center gap-6'>
             {/*filter type */}
-            <div className='border-2 border-orange-500 p-2 rounded-sm flex items-center gap-2'>
+            <div className=' p-2 rounded-sm flex items-center flex-col md:flex-row gap-2'>
                <label htmlFor="category" className='font-medium'>Filter By Category</label>
-               <select name="category" id='category' onChange={categorySelected} className='outline-none border-none bg-transparent focus:outline-orange-500'>
+               <select name="category" id='category' onChange={categorySelected} className='border-2 border-orange-500 bg-transparent outline-orange-500 p-1'>
                 <option value="all">All</option>
                 <option value="steak">steak</option>
                 <option value="burger">burgers</option>
@@ -66,10 +66,10 @@ const OurMenu = () => {
                 <option value="extra">extras</option>
                 </select> 
             </div>
-            <div className='border-2 border-orange-500 p-2 rounded-sm flex items-center gap-2'>
+            <div className=' p-2 rounded-sm flex items-center gap-2 flex-col md:flex-row'>
             {/*filter price */}
             <label htmlFor="price" className='font-medium'>Filter By Price</label>
-            <select name="price" id='price' onChange={priceSelected} className='outline-none border-none bg-transparent focus:outline-orange-500'>
+            <select name="price" id='price' onChange={priceSelected} className='border-2 border-orange-500 bg-transparent outline-orange-500 p-1'>
                 <option value="all">All</option>
                 <option value="€">€</option>
                 <option value="€€">€€</option>
