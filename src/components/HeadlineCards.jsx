@@ -19,7 +19,7 @@ const HeadlineCards = () => {
                 <button className='w-max bg-orange-500 px-4 py-1 border-none hover:bg-white hover:text-orange-500 duration-300'>See Our Menu</button>
            </div>
             </div>
-            <img src={burger} alt="burger picture" className='max-h-[160px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
+            <img src={burger} alt="burger picture" className='max-h-[250px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
         </div>
         {/*Card */}
         <div className='rounded-xl relative'>
@@ -29,27 +29,27 @@ const HeadlineCards = () => {
            <h3 className='font-bold text-xl pt-3 md:text-2xl'>Chicken</h3>
                 <p>
                 In addition to our delicious steak and burger options, 
-                we also offer a variety of chicken dishes to satisfy your cravings.
+                we also offer a variety of chicken dishes to satisfy you.
                 </p>
                 <button className='w-max bg-orange-500 px-4 py-1 border-none hover:bg-white hover:text-orange-500 duration-300'>See Our Menu</button>
            </div>
             </div>
-            <img src={chicken} alt="chicken picture" className='max-h-[160px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
+            <img src={chicken} alt="chicken picture" className='max-h-[250px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
         </div>
         {/*Card */}
         <div className='rounded-xl relative'>
             {/*overlay */}
             <div className='absolute w-full h-full bg-black/40 rounded-md text-white'>
-           <div className='p-2 pb-2 space-y-2'>
+           <div className='p-3 space-y-2'>
            <h3 className='font-bold text-xl pt-3 md:text-2xl'>Meat</h3>
                 <p>
                 Our steakhouse menu doesn't stop at just steak and chicken, 
-                we also offer a variety of other meats to satisfy your cravings. 
+                we also offer a variety of other meats. 
                 </p>
                 <button className='w-max bg-orange-500 px-4 py-1 border-none hover:bg-white hover:text-orange-500 duration-300'>See Our Menu</button>
            </div>
             </div>
-            <img src={meat} alt="meat picture" className='max-h-[160px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
+            <img src={meat} alt="meat picture" className='max-h-[250px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
         </div>
         {/*Card */}
         <div className='rounded-xl relative'>
@@ -64,7 +64,7 @@ const HeadlineCards = () => {
                 <button className='w-max bg-orange-500 px-4 py-1 border-none hover:bg-white hover:text-orange-500 duration-300'>See Our Menu</button>
            </div>
             </div>
-            <img src={drinks} alt="drinks picture" className='max-h-[160px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
+            <img src={drinks} alt="drinks picture" className='max-h-[250px] md:max-h-[200px] w-full object-cover h-full rounded-md' />
         </div>
     </section>
   )
