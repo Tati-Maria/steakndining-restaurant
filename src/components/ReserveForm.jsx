@@ -119,7 +119,7 @@ const ReserveForm = () => {
                     </select>
                 </div>
                 <br />
-                {submit && <SyncLoader color='#222' size={50} />}
+                {submit && <SyncLoader color='#222' size={10} />}
                 <button 
                 className='border-none bg-white shadow-md w-full lg:w-max lg:hover:scale-110  duration-300'
                 type='submit'>
