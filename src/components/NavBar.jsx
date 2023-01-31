@@ -42,7 +42,7 @@ const NavBar = () => {
             <input className='bg-transparent p-2 focus:outline-none w-full' type="search" placeholder='Search foods' />
         </div>
         {/*Cart Button */}
-        <button className='hidden md:flex items-center gap-2 text-white bg-orange-600 py-2 shadow-sm rounded-full' disabled>
+        <button className='hidden lg:flex items-center gap-2 text-white bg-orange-600 py-2 shadow-sm rounded-full' disabled>
             Book now
         </button>
         {/*Mobile Menu */}

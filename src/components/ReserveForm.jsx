@@ -32,7 +32,7 @@ const ReserveForm = () => {
     <section className='py-12 bg-orange-100' id="reserve">
         <Title title="Reservation" />
         <div className='max-w-[1200px] mx-auto p-4'>
-            <form onSubmit={handleSubmit} className="flex flex-col">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-2">
                 <div className='space-x-4 flex items-center'>
                 <label htmlFor="name" className='font-medium'>
                     Name:
@@ -75,7 +75,7 @@ const ReserveForm = () => {
                     placeholder='Number of guests'
                     onChange={e => setGuests(e.target.value)}
                     required
-                    className='py-2 px-1 w-max rounded-md shadow-md shadow-orange-500'
+                    className='py-2 px-1 rounded-md shadow-md shadow-orange-500'
                      />
                 </div>
                 <br/>
